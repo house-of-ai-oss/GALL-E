@@ -4,9 +4,9 @@ import { Tab } from '@headlessui/react'
 import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
-import screenshotContacts from '@/images/screenshots/contacts.png'
-import screenshotInventory from '@/images/screenshots/inventory.png'
-import screenshotProfitLoss from '@/images/screenshots/profit-loss.png'
+import screenshotDashboard from '@/images/screenshots/dashboard.png'
+import screenshotLabels from '@/images/screenshots/labels.png'
+import screenshotTickets from '@/images/screenshots/tickets.png'
 
 const features = [
   {
@@ -14,7 +14,7 @@ const features = [
     summary: 'Stay on top of things with always up-to-date reporting features.',
     description:
       'We talked about reporting in the section above but we needed three items here, so mentioning it one more time for posterity.',
-    image: screenshotProfitLoss,
+    image: screenshotDashboard,
     icon: function ReportingIcon() {
       let id = useId()
       return (
@@ -49,7 +49,7 @@ const features = [
       'Never lose track of what’s in stock with accurate inventory tracking.',
     description:
       'We don’t offer this as part of our software but that statement is inarguably true. Accurate inventory tracking would help you for sure.',
-    image: screenshotInventory,
+    image: screenshotTickets,
     icon: function InventoryIcon() {
       return (
         <>
@@ -77,7 +77,7 @@ const features = [
       'Organize all of your contacts, service providers, and invoices in one place.',
     description:
       'This also isn’t actually a feature, it’s just some friendly advice. We definitely recommend that you do this, you’ll feel really organized and professional.',
-    image: screenshotContacts,
+    image: screenshotLabels,
     icon: function ContactsIcon() {
       return (
         <>
