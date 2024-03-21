@@ -1,8 +1,8 @@
-import Image from 'next/image'
+import Image from "next/image"
 
-import { Button } from '@/components/Button'
-import { Container } from '@/components/Container'
-import backgroundImage from '@/images/background-call-to-action.jpg'
+import { Button } from "@/components/Button"
+import { Container } from "@/components/Container"
+import backgroundImage from "@/images/background-call-to-action.jpg"
 
 export function CallToAction() {
   return (
@@ -28,7 +28,7 @@ export function CallToAction() {
             Solve your problems together with your local government
           </p>
           <Button href="/register" color="white" className="mt-10">
-            Call Gall-E now
+            Try Gall-E now
           </Button>
         </div>
       </Container>
