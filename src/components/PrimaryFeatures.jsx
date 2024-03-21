@@ -5,35 +5,41 @@ import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
 import backgroundImage from '@/images/background-features.jpg'
-import screenshotExpenses from '@/images/screenshots/expenses.png'
-import screenshotPayroll from '@/images/screenshots/payroll.png'
-import screenshotReporting from '@/images/screenshots/reporting.png'
-import screenshotVatReturns from '@/images/screenshots/vat-returns.png'
+import screenshotDashboard from '@/images/screenshots/dashboard.png'
+import screenshotCalls from '@/images/screenshots/calls.png'
+import screenshotLabels from '@/images/screenshots/labels.png'
+import screenshotPeopleDb from '@/images/screenshots/peopledb.png'
+import screenshotTickets from '@/images/screenshots/tickets.png'
 
 const features = [
   {
-    title: 'Payroll',
+    title: 'Dashboard',
     description:
-      "Keep track of everyone's salaries and whether or not they've been paid. Direct deposit not supported.",
-    image: screenshotPayroll,
+      "Keep track of everyone's calls and tickets, as well as system performance and saved time.",
+    image: screenshotDashboard,
   },
   {
-    title: 'Claim expenses',
+    title: 'Automated Ticketing',
     description:
-      "All of your receipts organized into one place, as long as you don't mind typing in the data by hand.",
-    image: screenshotExpenses,
+      'See what still needs to be answered, as well what has been answered in the past.',
+    image: screenshotTickets,
   },
   {
-    title: 'VAT handling',
+    title: 'Automated Call Labeling',
     description:
-      "We only sell our software to companies who don't deal with VAT at all, so technically we do all the VAT stuff they need.",
-    image: screenshotVatReturns,
+      'Automatically label calls and tickets, to assign them to the right people.',
+    image: screenshotLabels,
   },
   {
-    title: 'Reporting',
+    title: 'Past Calls',
+    description: 'All current and past calls in one place.',
+    image: screenshotCalls,
+  },
+  {
+    title: 'People DB',
     description:
-      'Easily export your data into an Excel spreadsheet where you can do whatever the hell you want with it.',
-    image: screenshotReporting,
+      'Need to find tickets related to a caller ? Here is where you can easily find them.',
+    image: screenshotPeopleDb,
   },
 ]
 
