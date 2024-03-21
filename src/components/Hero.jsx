@@ -27,7 +27,7 @@ export function Hero() {
           <span className="relative">Gall-E</span>
         </span>{" "}
       </h1>
-      <p className="mx-auto mt-6 max-w-2xl text-lg tracking-tight text-slate-700">
+      <p className="mx-auto mt-6 max-w-2xl text-lg tracking-tight text-slate-600">
         ... and have your problems solved
       </p>
 
