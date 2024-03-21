@@ -8,10 +8,11 @@ import logoStatamic from '@/images/logos/statamic.svg'
 import logoStaticKit from '@/images/logos/statickit.svg'
 import logoTransistor from '@/images/logos/transistor.svg'
 import logoTuple from '@/images/logos/tuple.svg'
+import switzerlandSquare from '@/images/logos/switzerland-square.svg'
 
 export function Hero() {
   return (
-    <Container className="pb-16 pt-20 text-center lg:pt-32">
+    <Container className="pb-8 pt-20 text-center lg:pt-32">
       <h1 className="mx-auto max-w-4xl font-display text-5xl font-medium tracking-tight text-slate-900 sm:text-7xl">
         Say hello to{' '}
         <span className="relative whitespace-nowrap text-blue-600">
@@ -29,8 +30,18 @@ export function Hero() {
       <p className="mx-auto mt-6 max-w-2xl text-lg tracking-tight text-slate-700">
         Your new companion in navigating bureaucracy
       </p>
+
       <div className="mt-10 flex justify-center gap-x-6"></div>
       <div className="mt-36 lg:mt-44">
+        <div className="align-bottom">
+          <p className="inline h-6 text-nowrap align-bottom">
+            Made in switzerland
+          </p>
+          <Image
+            src={switzerlandSquare}
+            className=" ml-2 inline h-6 w-auto rounded-full"
+          />
+        </div>
         {/*
 
         <p className="font-display text-base text-slate-900">
