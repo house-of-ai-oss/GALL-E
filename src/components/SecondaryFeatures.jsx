@@ -66,11 +66,10 @@ const features = [
     },
   },
   {
-    name: "Inventory",
-    summary:
-      "Never lose track of what’s in stock with accurate inventory tracking.",
+    name: "Issue Tracker",
+    summary: "Track, Manage, Resolve",
     description:
-      "We don’t offer this as part of our software but that statement is inarguably true. Accurate inventory tracking would help you for sure.",
+      "Keep a pulse on citizen's issues with our robust tracking system, designed to streamline the management and resolution of every ticket for improved service quality. - or bring your own ticketing system to integrate with ours.",
     image: screenshotTickets,
     icon: function InventoryIcon() {
       return (
