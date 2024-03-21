@@ -28,7 +28,7 @@ export function Hero() {
         </span>{" "}
       </h1>
       <p className="mx-auto mt-6 max-w-2xl text-lg tracking-tight text-slate-600">
-        Your assistant to help you manage bureaucracy
+        Your assistant to help citizens manage bureaucracy
       </p>
 
       <div className="mt-10 flex justify-center gap-x-6"></div>
