@@ -1,0 +1,43 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model ticket {
+  id             Int          @id @default(autoincrement())
+  create_time    DateTime     @default(now()) @db.Timestamptz(6)
+  description    String?
+  call_report_id Int?
+  call_report    call_report? @relation(fields: [call_report_id], references: [id])
+}
+
+model user {
+  id           Int           @id @default(autoincrement())
+  create_time  DateTime      @default(now()) @db.Timestamptz(6)
+  email        String?       @unique
+  phone        String?       @unique
+  name         String?
+  call_reports call_report[]
+}
+
+model call_report {
+  id          Int      @id @default(autoincrement())
+  create_time DateTime @default(now()) @db.Timestamptz(6)
+  user_id     Int
+  user        user     @relation(fields: [user_id], references: [id])
+  data        Json
+  labels      label[]
+  ticket      ticket[]
+}
+
+model label {
+  id           Int           @id @default(autoincrement())
+  name         String        @unique
+  description  String?
+  create_time  DateTime      @default(now()) @db.Timestamptz(6)
+  call_reports call_report[]
+}
