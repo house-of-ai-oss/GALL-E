@@ -11,8 +11,14 @@ model ticket {
   id             Int          @id @default(autoincrement())
   create_time    DateTime     @default(now()) @db.Timestamptz(6)
   description    String?
+  state          ticket_state @default(OPEN)
   call_report_id Int?
   call_report    call_report? @relation(fields: [call_report_id], references: [id])
+}
+
+enum ticket_state {
+  OPEN
+  CLOSED
 }
 
 model user {

@@ -3,6 +3,7 @@
     "start": "bun --env-file=.env run --hot src/index.ts"
   },
   "dependencies": {
+    "@elastic/elasticsearch": "^8.12.2",
     "@prisma/client": "5.11.0",
     "hono": "^3.12.8",
     "llamaindex": "^0.1.9",
