@@ -28,7 +28,7 @@ export function Hero() {
         </span>{" "}
       </h1>
       <p className="mx-auto mt-6 max-w-2xl text-lg tracking-tight text-slate-600">
-        Your assistant to help citizens manage bureaucracy
+          The Voice Call Agent that significantly reduces the workload of humans.
       </p>
 
       <div className="mt-10 flex justify-center gap-x-6"></div>

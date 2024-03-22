@@ -10,7 +10,7 @@ import screenshotTickets from "@/images/screenshots/tickets.png"
 
 const features = [
   {
-    name: "Human Interface",
+    name: "Voice Interface",
     summary: "Easy to use for everyone",
     description:
       "No screens, no typing, just speak — our assistant listens and responds with the information you need.",
@@ -66,7 +66,7 @@ const features = [
     },
   },
   {
-    name: "Issue Tracker",
+    name: "Human Excalation",
     summary: "Track, Manage, Resolve",
     description:
       "Keep a pulse on citizen's issues with our robust tracking system, designed to streamline the management and resolution of every ticket for improved service quality. - or bring your own ticketing system to integrate with ours.",
@@ -214,11 +214,11 @@ export function SecondaryFeatures() {
       <Container>
         <div className="mx-auto max-w-2xl md:text-center">
           <h2 className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl">
-            Where Conversations Lead to Solutions.
+            Where Conversations Lead to Solutions in Time.
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
-            Harness the simplicity of voice commands to access complex
-            information and valuable insights
+            Harness the simplicity of voice commands to organize
+            information and streamline your custom workflow.
           </p>
         </div>
         <FeaturesMobile />
