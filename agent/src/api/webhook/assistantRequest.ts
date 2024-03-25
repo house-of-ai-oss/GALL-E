@@ -105,7 +105,7 @@ When the phone call should be ended say Goodbye as your last word.`,
             },
             firstMessage: `Welcome to the Canton of St Gallen's support line. I'm Galli, your digital assistant, here to offer support and information in your preferred language. How can I help you today?`,
             endCallMessage: `Goodbye`,
-            // endCallPhrases: ["Goodbye"],
+            endCallPhrases: ["Goodbye"],
             silenceTimeoutSeconds: 10,
         }
         // : null;
