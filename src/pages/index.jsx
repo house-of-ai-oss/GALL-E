@@ -1,13 +1,13 @@
-import Head from 'next/head'
+import Head from "next/head"
 
-import { CallToAction } from '@/components/CallToAction'
+import { CallToAction } from "@/components/CallToAction"
 //import { Faqs } from '@/components/Faqs'
-import { Footer } from '@/components/Footer'
+import { Footer } from "@/components/Footer"
 //import { Header } from '@/components/Header'
-import { Hero } from '@/components/Hero'
+import { Hero } from "@/components/Hero"
 //import { Pricing } from '@/components/Pricing'
-import { PrimaryFeatures } from '@/components/PrimaryFeatures'
-import { SecondaryFeatures } from '@/components/SecondaryFeatures'
+import { PrimaryFeatures } from "@/components/PrimaryFeatures"
+import { SecondaryFeatures } from "@/components/SecondaryFeatures"
 //import { SecondaryFeatures } from '@/components/SecondaryFeatures'
 //import { Testimonials } from '@/components/Testimonials'
 
@@ -15,10 +15,10 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>GALL-E</title>
+        <title>CALL-E</title>
         <meta
           name="description"
-          content="Your new companion in navigating bureaucracy"
+          content="The new AI-Call Center for your business."
         />
       </Head>
       {/*<Header />*/}
