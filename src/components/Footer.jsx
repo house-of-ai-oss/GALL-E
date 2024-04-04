@@ -50,7 +50,7 @@ export function Footer() {
           </div>
           */}
           <p className="mt-6 text-sm text-slate-500 sm:mt-0">
-            Copyright &copy; {new Date().getFullYear()} Gall-E. All rights
+            Copyright &copy; {new Date().getFullYear()} Call-E. All rights
             reserved.
           </p>
         </div>
