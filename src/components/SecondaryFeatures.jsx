@@ -69,7 +69,7 @@ const features = [
     name: "Issue Tracker",
     summary: "Track, Manage, Resolve",
     description:
-      "Keep a pulse on citizen's issues with our robust tracking system, designed to streamline the management and resolution of every ticket for improved service quality. - or bring your own ticketing system to integrate with ours.",
+      "Keep a pulse on customer's issues with our robust tracking system, designed to streamline the management and resolution of every ticket for improved service quality. - or bring your own ticketing system to integrate with ours.",
     image: screenshotTickets,
     icon: function InventoryIcon() {
       return (
