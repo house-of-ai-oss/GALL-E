@@ -30,7 +30,11 @@ export function Hero() {
       <p className="mx-auto mt-6 max-w-2xl text-lg tracking-tight text-slate-600">
         Assist your customers anytime, anywhere with our AI-Call Center.
       </p>
-      <Button href="/register" color="blue" className="mt-10">
+      <Button
+        href="https://call-ai-app.vercel.app"
+        color="blue"
+        className="mt-10"
+      >
         Try Call-AI now
       </Button>
       <div className="mt-10 flex justify-center gap-x-6"></div>

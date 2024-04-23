@@ -26,7 +26,11 @@ export function CallToAction() {
           <p className="mt-4 text-lg tracking-tight text-white">
             Solve your problems together with your customers
           </p>
-          <Button href="/register" color="white" className="mt-10">
+          <Button
+            href="https://call-ai-app.vercel.app"
+            color="white"
+            className="mt-10"
+          >
             Try Call-AI now
           </Button>
         </div>
