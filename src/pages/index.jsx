@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>CALL-E</title>
+        <title>Call-AI</title>
         <meta
           name="description"
           content="The new AI-Call Center for your business."

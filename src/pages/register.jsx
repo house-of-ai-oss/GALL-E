@@ -11,18 +11,18 @@ export default function Register() {
   return (
     <>
       <Head>
-        <title>Call Call-e</title>
+        <title>Call Call-AI</title>
       </Head>
       <AuthLayout>
         <div className="flex flex-col">
           <Link href="/" aria-label="Home">
             <span className="text-2xl font-bold text-blue-600">
-              Welcome to CALL-E
+              Welcome to Call-AI
             </span>
           </Link>
           <div className="mt-16">
             <h2 className="text-lg font-semibold text-gray-900">
-              Call-E Demo Number:
+              Call-AI Demo Number:
             </h2>
             <p className="mt-2 text-sm text-gray-700">
               Phone: (US) +1 213-267-9794

@@ -27,7 +27,7 @@ export function CallToAction() {
             Solve your problems together with your customers
           </p>
           <Button href="/register" color="white" className="mt-10">
-            Try Call-E now
+            Try Call-AI now
           </Button>
         </div>
       </Container>
